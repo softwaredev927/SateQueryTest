@@ -1,0 +1,31 @@
+{
+  "name": "satequerytest",
+  "version": "1.0.0",
+  "description": "sateInfo query test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lclement927/sateInfoQueryTest.git"
+  },
+  "keywords": [
+    "sateInfo",
+    "web3.js",
+    "node.js"
+  ],
+  "author": "Clement Lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lclement927/sateInfoQueryTest/issues"
+  },
+  "homepage": "https://github.com/lclement927/sateInfoQueryTest#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "pug": "^3.0.2",
+    "web3": "^1.5.1"
+  }
+}
