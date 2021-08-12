@@ -22,10 +22,14 @@
   },
   "homepage": "https://github.com/lclement927/sateInfoQueryTest#readme",
   "dependencies": {
+    "@apollo/client": "^3.4.7",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "graphql": "^15.5.1",
     "mysql2": "^2.3.0",
+    "node-fetch": "^2.6.1",
     "pug": "^3.0.2",
+    "urql": "^2.0.4",
     "web3": "^1.5.1"
   }
 }

@@ -1,7 +1,9 @@
 extends layout
 
 block content
+    h4 Please type token ID and submit to get sate.
     form(action='sate')
-        label(for='tokenId') Token ID
+        label(for='tokenId') Token ID: &nbsp;
         input(id='tokenId' name='tokenId')
+        span &nbsp;
         button(type='submit') Submit
